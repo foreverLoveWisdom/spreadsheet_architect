@@ -14,4 +14,5 @@ gem "rails", get_env("RAILS_VERSION")
 db_gem = get_env("DB_GEM") || "sqlite3"
 gem db_gem, get_env("DB_GEM_VERSION")
 
-gem "minitest-spec-rails", git: "https://github.com/metaskills/minitest-spec-rails.git"
+#gem "minitest-spec-rails"
+gem "minitest-spec-rails", git: "https://github.com/westonganger/minitest-spec-rails.git", branch: "check-if-action-cable-is-available" ### https://github.com/metaskills/minitest-spec-rails/pull/125
